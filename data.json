@@ -1,0 +1,27 @@
+[
+    {
+        "ID": "1",
+        "Subject": "Algorithms",
+        "Score": "95"
+    },
+    {
+        "ID": "2",
+        "Subject": "Data Structures",
+        "Score": "88"
+    },
+    {
+        "ID": "3",
+        "Subject": "Operating Systems",
+        "Score": "92"
+    },
+    {
+        "ID": "4",
+        "Subject": "Computer Networks",
+        "Score": "85"
+    },
+    {
+        "ID": "5",
+        "Subject": "Databases",
+        "Score": "93"
+    }
+]
