@@ -1,4 +1,4 @@
-# Code start_студент групи КНдн-35с Дігтярьов Дмитро Вікторович
+# First student Дігтярьов Дмитро Вікторович
 import csv
 import json
 
@@ -19,11 +19,11 @@ JSON file has structure:
     ]
 """
 
-# First student Дігтярьов Дмитро Вікторович
+# First student files Дігтярьов Дмитро Вікторович
 csv_file = "data.csv"
 json_file = "data.json"
 
-# Second student Дігтярьов Дмитро Вікторович
+# Second student file Дігтярьов Дмитро Вікторович
 csv_output_file = "data_updated.csv"
 
 # Data for files first student Дігтярьов Дмитро Вікторович
@@ -42,6 +42,7 @@ data_update = [
     {"ID": "7", "Subject": "System Modeling", "Score": "92"}
 ]
 
+# First student Дігтярьов Дмитро Вікторович
 # Create CSV
 def create_csv_file():
     try:
@@ -65,6 +66,7 @@ def convert_csv_to_json():
     except Exception as e:
         print("Convert failed CSV to JSON:", e)
 
+# Second student Дігтярьов Дмитро Вікторович
 # Convert JSON to CSV and add data
 def convert_and_add_data_json_to_csv():
     try:
@@ -89,6 +91,7 @@ def convert_and_add_data_json_to_csv():
     except Exception as e:
         print("Convert failure JSON to CSV:", e)
 
+# First student Дігтярьов Дмитро Вікторович
 while True:
     print("\nMenu:"
           "\n1 -> Create CSV and convert to JSON"
